@@ -1,0 +1,30 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.LogoImage {
+    background-image: url('../Assets/Logo.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*min-height: 50px;*/
+    transition: .3s ease;
+    min-height:44px; 
+    min-width:149px
+}
+
